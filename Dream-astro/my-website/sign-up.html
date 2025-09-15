@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+
+
+</head>
+<body>
+
+    <main class="main--form">
+        <a href="./index.html" class="logo"><img src="./images/astronomy-logo.png" height="55" width="100"></a>
+        <h2 class="header2">Register to Get Advantage of Rare Deals!</h2>
+       
+    <form action="#" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" required>
+  <label for="lname" >Last name:</label>
+  <input type="text" id="lname" name="lname" required>
+  
+  <label for="email" >Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday" required>
+
+  
+  <p>Your Gender:</p>
+  <div class="radio">
+   <input type="radio" id="man" name="gender" value="man" required>
+  <label for="man">Man</label>
+  <input type="radio" id="woman" name="gender" value="woman" required>
+  <label for="woman">Woman</label>
+  <input type="radio" id="non-binary" name="gender" value="non-binary" required>
+  <label for="non-binary">Non-binary</label>
+  </div>
+
+
+  <label for="pwd">Password:</label>
+
+  <input type="password" id="pwd" name="pwd" value="mypw">
+
+<div class="password">
+   <input type="checkbox" onclick="myFunction()">
+
+<p>Show password</p>
+</div>
+<input type="submit" value="Submit">
+
+
+
+    </form>
+    <p>Already got an account? <a href="./log-in.html" class="log-in">Log in</a> to see sweet deals for members only</p>
+    </main>
+</body>
+</html>
